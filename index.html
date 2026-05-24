@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>ICT CLUB WEBSITE</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>WELCOME TO ICT CLUB</h1>
+    <marquee>Welcome to ICT Club innovate, Learn, create</marquee>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="Adiministration.html">Adiministration</a>
+        <a href="Memership.html">Memership</a>
+        <a href="projects.html">projects</a>
+    </nav>
+    <p>The ICT Club is a platform where students learn computer skills, programing and technology innovations. Members engage in projectsthat improve knowledge and prepare them for futur career in ICT</p>
+    <p>Cantact Us<a href="mailto:ictclub@gmail.com">mailto:ictclub@gmail.com</a></p>
+    <p>Visit <a href="https//www.ictclub.org" target="_blank">ICT Club Website</a></p>
+    <p>page Visits: <span id="counter">0</span></p>
+    <script>
+        if(localStorage.pageCount){
+            localStorage.pageCount=Number(localStorage.pageCount) + 1;
+        }else{
+            localStorage.pageCount =1;
+        }
+        document.getElementById("counter").inner Text = localStorage. pageCount
+    </script>
+  </body>
+</html>
